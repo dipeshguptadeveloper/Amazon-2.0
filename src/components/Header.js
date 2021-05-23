@@ -15,7 +15,7 @@ function Header() {
   const items = useSelector(selectItems);
 
   return (
-    <header>
+    <header className="sticky">
       {/* top nav */}
 
       <div className="flex items-center bg-amazon_blue p-1 flex-grow py-2">
