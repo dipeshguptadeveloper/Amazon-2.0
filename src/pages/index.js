@@ -19,6 +19,9 @@ export default function Home({ products }) {
         {/* products feed*/}
         <ProductFeed products={products} />
       </main>
+      <footer className='text-center text-sm'>
+        <h4>&copy; 2020-2021 dkg Tech | Designed by Dipesh Kumar Gupta</h4>
+      </footer>
     </div>
   );
 }
